@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+.headerBg {
+    background-image: url('../img/img-bg.png'); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    font-size: 18px;
+    font-weight: 400;
+    gap: 20px;
+}
+
+nav ul li {
+    width: 88px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: #FFD12E;
+}
+
+.hero {
+    text-align: center;
+    margin-top: 72px;
+}
+
+.hero h2 {
+    margin-top: 48px;
+    font-size: 80px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+.hero p {
+    margin-top: 12px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.hero-buttons button {
+    margin-top: 48px;
+    padding: 10px 20px;
+    margin: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.hero-buttons button:first-child {
+    background-color: #FFD12E;
+    color: #000;
+}
+
+.hero-buttons button:last-child {
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+}
+
+.images img {
+    width: 30%;
+    height: auto;
+}
+
+.offers {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.offers h3 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.offers p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.offer-cards {
+    padding: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.offer-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-basis: calc(50% - 10px);
+    background-color: #ffffff0e;
+    border-radius: 8px;
+}
+
+.offer-card h4 {
+    margin-top: 8px;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.offer-card p {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10%;
+}
+
+.offer-card img {
+    margin-top: 10%;
+    margin-bottom: 8px;
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+}
