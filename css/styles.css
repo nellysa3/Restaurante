@@ -137,6 +137,12 @@ nav ul li a:hover {
     margin-bottom: 8px;
 }
 
+li.logo {
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+}
 
 
 footer {
