@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
 </head>
+
 <body>
     <section>
         <nav style="padding-top: 64px; display: flex; justify-content: center;">
@@ -25,8 +28,69 @@
         </nav>
     </section>
 
-    <section>
-        <h2 style="padding-top: 64px; display: flex; justify-content: center;">Ingresa tu Codigo</h2>
+    <section id="section_contactanos">
+        <div>
+            <h1>Contáctanos</h1>
+            <p>Hola, aquí te brindamos información sobre la ubicación de nuestros locales.
+                Además te ofrecemos números de atención donde cualquier duda que tengas podrá ser resuelta,
+                o en caso contrario envíar un mensaje detallandonos tu duda o consulta
+            </p>
+        </div>
+        <div id="padre">
+            <div id="div01">
+                <figure>
+                    <img src="../img/figma1.png" alt="">
+                    <figcaption> <i class="fa-solid fa-location-dot"></i>
+                        Urb.Miraflores #678-Lima-Peru</figcaption>
+                    <figcaption><i class="fa-solid fa-phone"></i>
+                        957138426</figcaption>
+                </figure>
+            </div>
+            <div id="div02">
+                <figure>
+                    <img src="../img/figma2.png" alt="">
+                    <figcaption>
+                        <i class="fa-solid fa-location-dot"></i>
+                        Av. Ganoza #975-Urb.El
+                        Golf-Trujillo-Peru
+                    </figcaption>
+                    <figcaption><i class="fa-solid fa-phone"></i>
+                        957314862</figcaption>
+                </figure>
+            </div>
+        </div>
+        <div id="div03">
+            <h2>Realiza tu consulta</h2>
+        </div>
+        <div id="hijo">
+            <div id="div04">
+
+                <h3>
+                    Nombre Y Apellidos
+                </h3>
+                <div>
+                    <input id="txtnombres" type="text">
+                    <i id="icono01" class="fa-solid fa-user"></i>
+                </div>
+                <h3>
+                    Celular
+                </h3>
+                <div>
+                    <input id="txtcelular" type="text" value="+51">
+                    <i id="icono02" class="fa-solid fa-phone"></i>
+                </div>
+            </div>
+            <div id="div05">
+                <h3>
+                    Consultas
+                </h3>
+                <textarea name="" id=""></textarea>
+            </div>
+        </div>
+        <div id="07">
+            <button id="btnenviar">Enviar</button>
+        </div>
+        </div>
     </section>
 
     <footer>
@@ -39,4 +103,5 @@
     </footer>
 
 </body>
+
 </html>
